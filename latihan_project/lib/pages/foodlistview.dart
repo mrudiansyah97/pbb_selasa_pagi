@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import '/pages/itemcard.dart';
 
-
 class FoodListView extends StatelessWidget {
-  const FoodListView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,13 +11,13 @@ class FoodListView extends StatelessWidget {
         height: 160.0,
         child: ListView(
           scrollDirection: Axis.horizontal,
-          children: <Widget>[
-            ItemCard(),
-            ItemCard(),
-            ItemCard(),
-            ItemCard(),
+          children: <Widget> [
+              ItemCard(),
+              ItemCard(),
+              ItemCard(),
+              ItemCard(),
           ],
-        )
+        ),
       ),
     );
   }

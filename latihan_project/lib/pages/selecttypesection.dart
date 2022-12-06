@@ -83,4 +83,3 @@ class SelectTypeSection extends StatelessWidget {
     );
   }
 }
-
